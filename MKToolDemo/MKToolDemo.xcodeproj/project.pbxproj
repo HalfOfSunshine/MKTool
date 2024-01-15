@@ -17,6 +17,8 @@
 		ABB0E5862B55872D0077C96D /* MKToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0E5852B55872D0077C96D /* MKToolDemoTests.m */; };
 		ABB0E5902B55872D0077C96D /* MKToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0E58F2B55872D0077C96D /* MKToolDemoUITests.m */; };
 		ABB0E5922B55872D0077C96D /* MKToolDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0E5912B55872D0077C96D /* MKToolDemoUITestsLaunchTests.m */; };
+		ABB0E5A02B558D870077C96D /* MKTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB0E59F2B558D870077C96D /* MKTool.framework */; };
+		ABB0E5A12B558D870077C96D /* MKTool.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ABB0E59F2B558D870077C96D /* MKTool.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ABB0E5A22B558D870077C96D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ABB0E5A12B558D870077C96D /* MKTool.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		ABB0E5662B55872C0077C96D /* MKToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB0E5692B55872C0077C96D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +70,7 @@
 		ABB0E58B2B55872D0077C96D /* MKToolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKToolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB0E58F2B55872D0077C96D /* MKToolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKToolDemoUITests.m; sourceTree = "<group>"; };
 		ABB0E5912B55872D0077C96D /* MKToolDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKToolDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		ABB0E59F2B558D870077C96D /* MKTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MKTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB0E5A02B558D870077C96D /* MKTool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +106,7 @@
 				ABB0E5842B55872D0077C96D /* MKToolDemoTests */,
 				ABB0E58E2B55872D0077C96D /* MKToolDemoUITests */,
 				ABB0E5672B55872C0077C96D /* Products */,
+				ABB0E59E2B558D870077C96D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +155,14 @@
 			path = MKToolDemoUITests;
 			sourceTree = "<group>";
 		};
+		ABB0E59E2B558D870077C96D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0E59F2B558D870077C96D /* MKTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +173,7 @@
 				ABB0E5622B55872C0077C96D /* Sources */,
 				ABB0E5632B55872C0077C96D /* Frameworks */,
 				ABB0E5642B55872C0077C96D /* Resources */,
+				ABB0E5A22B558D870077C96D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
