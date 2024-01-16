@@ -12,12 +12,12 @@
 //+ (NSString *)md5EncryptWithString:(NSString *)string{
 //    return [self md5:[NSString stringWithFormat:@"%@%@", encryptionKey, string]];
 //}
-NSString * md5 (NSString *string,...){
+NSString * mk_md5 (NSString *string,...){
     NSString *finalString;
     va_list stringList;//创建一个参数指针
     va_start(stringList, string);//第一个参数为参数指针，第二参数是参数中的第一个
     
-    id string2;//va_arg 第一个参数是指针，第二个参数为数据类型，所有的参数建议是id类型
+    id string2;//va_arg 第一个 mk_md5参数是指针，第二个参数为数据类型，所有的参数建议是id类型
     if (string) {
         finalString = string;
         while ((string2 = va_arg(stringList, id))) {
