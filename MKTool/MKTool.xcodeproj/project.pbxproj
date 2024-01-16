@@ -21,6 +21,42 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		AB62FCE82B5624DB0075D66A /* UITextField+FunctionExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCBE2B5624DB0075D66A /* UITextField+FunctionExpansion.m */; };
+		AB62FCE92B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCBF2B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FCEA2B5624DB0075D66A /* UILabel+FunctionExpansion.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCC02B5624DB0075D66A /* UILabel+FunctionExpansion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FCEB2B5624DB0075D66A /* UIWindow+MKWindowTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCC12B5624DB0075D66A /* UIWindow+MKWindowTool.m */; };
+		AB62FCEC2B5624DB0075D66A /* UIViewController+NavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCC22B5624DB0075D66A /* UIViewController+NavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FCED2B5624DB0075D66A /* UIButton+FunctionExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCC32B5624DB0075D66A /* UIButton+FunctionExpansion.m */; };
+		AB62FCEE2B5624DB0075D66A /* UIView+FunctionExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCC42B5624DB0075D66A /* UIView+FunctionExpansion.m */; };
+		AB62FCEF2B5624DB0075D66A /* UITextField+FunctionExpansion.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCC52B5624DB0075D66A /* UITextField+FunctionExpansion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FCF02B5624DB0075D66A /* UILabel+FunctionExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCC62B5624DB0075D66A /* UILabel+FunctionExpansion.m */; };
+		AB62FCF12B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCC72B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.m */; };
+		AB62FCF22B5624DB0075D66A /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCC82B5624DB0075D66A /* UIViewController+NavigationBar.m */; };
+		AB62FCF32B5624DB0075D66A /* UIWindow+MKWindowTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCC92B5624DB0075D66A /* UIWindow+MKWindowTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FCF42B5624DB0075D66A /* UIView+FunctionExpansion.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCCA2B5624DB0075D66A /* UIView+FunctionExpansion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FCF52B5624DB0075D66A /* UIButton+FunctionExpansion.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCCB2B5624DB0075D66A /* UIButton+FunctionExpansion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FCF62B5624DB0075D66A /* NSString+LocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCCD2B5624DB0075D66A /* NSString+LocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FCF72B5624DB0075D66A /* MKMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCCE2B5624DB0075D66A /* MKMD5.m */; };
+		AB62FCF82B5624DB0075D66A /* NSString+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCCF2B5624DB0075D66A /* NSString+Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FCF92B5624DB0075D66A /* XTTimeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCD02B5624DB0075D66A /* XTTimeTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FCFA2B5624DB0075D66A /* NSString+LocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCD12B5624DB0075D66A /* NSString+LocalizedString.m */; };
+		AB62FCFB2B5624DB0075D66A /* MKMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCD22B5624DB0075D66A /* MKMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FCFC2B5624DB0075D66A /* XTTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCD32B5624DB0075D66A /* XTTimeTool.m */; };
+		AB62FCFD2B5624DB0075D66A /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCD42B5624DB0075D66A /* NSString+Size.m */; };
+		AB62FCFE2B5624DB0075D66A /* NSObject+ModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCD62B5624DB0075D66A /* NSObject+ModelTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FCFF2B5624DB0075D66A /* NSDictionary+FromModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCD72B5624DB0075D66A /* NSDictionary+FromModel.m */; };
+		AB62FD002B5624DB0075D66A /* NSObject+ModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCD82B5624DB0075D66A /* NSObject+ModelTool.m */; };
+		AB62FD012B5624DB0075D66A /* NSDictionary+FromModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCD92B5624DB0075D66A /* NSDictionary+FromModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FD022B5624DB0075D66A /* UIColor+MKRGB.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCDB2B5624DB0075D66A /* UIColor+MKRGB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FD032B5624DB0075D66A /* UIColor+MKRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCDC2B5624DB0075D66A /* UIColor+MKRGB.m */; };
+		AB62FD042B5624DB0075D66A /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCDE2B5624DB0075D66A /* Common.m */; };
+		AB62FD052B5624DB0075D66A /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCDF2B5624DB0075D66A /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FD072B5624DB0075D66A /* NSString+Exist.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCE22B5624DB0075D66A /* NSString+Exist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FD082B5624DB0075D66A /* NSNull+Exist.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCE32B5624DB0075D66A /* NSNull+Exist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB62FD092B5624DB0075D66A /* NSNumber+Exist.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCE42B5624DB0075D66A /* NSNumber+Exist.m */; };
+		AB62FD0A2B5624DB0075D66A /* NSNull+Exist.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCE52B5624DB0075D66A /* NSNull+Exist.m */; };
+		AB62FD0B2B5624DB0075D66A /* NSString+Exist.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCE62B5624DB0075D66A /* NSString+Exist.m */; };
+		AB62FD0C2B5624DB0075D66A /* NSNumber+Exist.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCE72B5624DB0075D66A /* NSNumber+Exist.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABB0E5482B5587060077C96D /* MKTool.docc in Sources */ = {isa = PBXBuildFile; fileRef = ABB0E5472B5587060077C96D /* MKTool.docc */; };
 		ABB0E54E2B5587060077C96D /* MKTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB0E5432B5587060077C96D /* MKTool.framework */; };
 		ABB0E5532B5587060077C96D /* MKToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0E5522B5587060077C96D /* MKToolTests.m */; };
@@ -38,6 +74,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB62FCBE2B5624DB0075D66A /* UITextField+FunctionExpansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FunctionExpansion.m"; sourceTree = "<group>"; };
+		AB62FCBF2B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		AB62FCC02B5624DB0075D66A /* UILabel+FunctionExpansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FunctionExpansion.h"; sourceTree = "<group>"; };
+		AB62FCC12B5624DB0075D66A /* UIWindow+MKWindowTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+MKWindowTool.m"; sourceTree = "<group>"; };
+		AB62FCC22B5624DB0075D66A /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
+		AB62FCC32B5624DB0075D66A /* UIButton+FunctionExpansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FunctionExpansion.m"; sourceTree = "<group>"; };
+		AB62FCC42B5624DB0075D66A /* UIView+FunctionExpansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FunctionExpansion.m"; sourceTree = "<group>"; };
+		AB62FCC52B5624DB0075D66A /* UITextField+FunctionExpansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+FunctionExpansion.h"; sourceTree = "<group>"; };
+		AB62FCC62B5624DB0075D66A /* UILabel+FunctionExpansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FunctionExpansion.m"; sourceTree = "<group>"; };
+		AB62FCC72B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		AB62FCC82B5624DB0075D66A /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
+		AB62FCC92B5624DB0075D66A /* UIWindow+MKWindowTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+MKWindowTool.h"; sourceTree = "<group>"; };
+		AB62FCCA2B5624DB0075D66A /* UIView+FunctionExpansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FunctionExpansion.h"; sourceTree = "<group>"; };
+		AB62FCCB2B5624DB0075D66A /* UIButton+FunctionExpansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FunctionExpansion.h"; sourceTree = "<group>"; };
+		AB62FCCD2B5624DB0075D66A /* NSString+LocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LocalizedString.h"; sourceTree = "<group>"; };
+		AB62FCCE2B5624DB0075D66A /* MKMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMD5.m; sourceTree = "<group>"; };
+		AB62FCCF2B5624DB0075D66A /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		AB62FCD02B5624DB0075D66A /* XTTimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTTimeTool.h; sourceTree = "<group>"; };
+		AB62FCD12B5624DB0075D66A /* NSString+LocalizedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LocalizedString.m"; sourceTree = "<group>"; };
+		AB62FCD22B5624DB0075D66A /* MKMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMD5.h; sourceTree = "<group>"; };
+		AB62FCD32B5624DB0075D66A /* XTTimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTTimeTool.m; sourceTree = "<group>"; };
+		AB62FCD42B5624DB0075D66A /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		AB62FCD62B5624DB0075D66A /* NSObject+ModelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ModelTool.h"; sourceTree = "<group>"; };
+		AB62FCD72B5624DB0075D66A /* NSDictionary+FromModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FromModel.m"; sourceTree = "<group>"; };
+		AB62FCD82B5624DB0075D66A /* NSObject+ModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ModelTool.m"; sourceTree = "<group>"; };
+		AB62FCD92B5624DB0075D66A /* NSDictionary+FromModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FromModel.h"; sourceTree = "<group>"; };
+		AB62FCDB2B5624DB0075D66A /* UIColor+MKRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MKRGB.h"; sourceTree = "<group>"; };
+		AB62FCDC2B5624DB0075D66A /* UIColor+MKRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MKRGB.m"; sourceTree = "<group>"; };
+		AB62FCDE2B5624DB0075D66A /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		AB62FCDF2B5624DB0075D66A /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		AB62FCE22B5624DB0075D66A /* NSString+Exist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Exist.h"; sourceTree = "<group>"; };
+		AB62FCE32B5624DB0075D66A /* NSNull+Exist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+Exist.h"; sourceTree = "<group>"; };
+		AB62FCE42B5624DB0075D66A /* NSNumber+Exist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Exist.m"; sourceTree = "<group>"; };
+		AB62FCE52B5624DB0075D66A /* NSNull+Exist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Exist.m"; sourceTree = "<group>"; };
+		AB62FCE62B5624DB0075D66A /* NSString+Exist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Exist.m"; sourceTree = "<group>"; };
+		AB62FCE72B5624DB0075D66A /* NSNumber+Exist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Exist.h"; sourceTree = "<group>"; };
+		AB62FD0E2B5626A80075D66A /* MKMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMacroDefinition.h; sourceTree = "<group>"; };
 		ABB0E5432B5587060077C96D /* MKTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB0E5462B5587060077C96D /* MKTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKTool.h; sourceTree = "<group>"; };
 		ABB0E5472B5587060077C96D /* MKTool.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MKTool.docc; sourceTree = "<group>"; };
@@ -64,6 +137,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB62FCBD2B5624DB0075D66A /* UITools */ = {
+			isa = PBXGroup;
+			children = (
+				AB62FCCB2B5624DB0075D66A /* UIButton+FunctionExpansion.h */,
+				AB62FCC32B5624DB0075D66A /* UIButton+FunctionExpansion.m */,
+				AB62FCC02B5624DB0075D66A /* UILabel+FunctionExpansion.h */,
+				AB62FCC62B5624DB0075D66A /* UILabel+FunctionExpansion.m */,
+				AB62FCBF2B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.h */,
+				AB62FCC72B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.m */,
+				AB62FCC52B5624DB0075D66A /* UITextField+FunctionExpansion.h */,
+				AB62FCBE2B5624DB0075D66A /* UITextField+FunctionExpansion.m */,
+				AB62FCCA2B5624DB0075D66A /* UIView+FunctionExpansion.h */,
+				AB62FCC42B5624DB0075D66A /* UIView+FunctionExpansion.m */,
+				AB62FCC22B5624DB0075D66A /* UIViewController+NavigationBar.h */,
+				AB62FCC82B5624DB0075D66A /* UIViewController+NavigationBar.m */,
+				AB62FCC92B5624DB0075D66A /* UIWindow+MKWindowTool.h */,
+				AB62FCC12B5624DB0075D66A /* UIWindow+MKWindowTool.m */,
+			);
+			path = UITools;
+			sourceTree = "<group>";
+		};
+		AB62FCCC2B5624DB0075D66A /* FunctionExpansion */ = {
+			isa = PBXGroup;
+			children = (
+				AB62FCCD2B5624DB0075D66A /* NSString+LocalizedString.h */,
+				AB62FCCE2B5624DB0075D66A /* MKMD5.m */,
+				AB62FCCF2B5624DB0075D66A /* NSString+Size.h */,
+				AB62FCD02B5624DB0075D66A /* XTTimeTool.h */,
+				AB62FCD12B5624DB0075D66A /* NSString+LocalizedString.m */,
+				AB62FCD22B5624DB0075D66A /* MKMD5.h */,
+				AB62FCD32B5624DB0075D66A /* XTTimeTool.m */,
+				AB62FCD42B5624DB0075D66A /* NSString+Size.m */,
+			);
+			path = FunctionExpansion;
+			sourceTree = "<group>";
+		};
+		AB62FCD52B5624DB0075D66A /* QuickModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB62FCD62B5624DB0075D66A /* NSObject+ModelTool.h */,
+				AB62FCD72B5624DB0075D66A /* NSDictionary+FromModel.m */,
+				AB62FCD82B5624DB0075D66A /* NSObject+ModelTool.m */,
+				AB62FCD92B5624DB0075D66A /* NSDictionary+FromModel.h */,
+			);
+			path = QuickModel;
+			sourceTree = "<group>";
+		};
+		AB62FCDA2B5624DB0075D66A /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				AB62FCDB2B5624DB0075D66A /* UIColor+MKRGB.h */,
+				AB62FCDC2B5624DB0075D66A /* UIColor+MKRGB.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		AB62FCDD2B5624DB0075D66A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AB62FCDE2B5624DB0075D66A /* Common.m */,
+				AB62FCDF2B5624DB0075D66A /* Common.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AB62FCE12B5624DB0075D66A /* ObjectExist */ = {
+			isa = PBXGroup;
+			children = (
+				AB62FCE22B5624DB0075D66A /* NSString+Exist.h */,
+				AB62FCE32B5624DB0075D66A /* NSNull+Exist.h */,
+				AB62FCE42B5624DB0075D66A /* NSNumber+Exist.m */,
+				AB62FCE52B5624DB0075D66A /* NSNull+Exist.m */,
+				AB62FCE62B5624DB0075D66A /* NSString+Exist.m */,
+				AB62FCE72B5624DB0075D66A /* NSNumber+Exist.h */,
+			);
+			path = ObjectExist;
+			sourceTree = "<group>";
+		};
 		ABB0E5392B5587060077C96D = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +236,14 @@
 		ABB0E5452B5587060077C96D /* MKTool */ = {
 			isa = PBXGroup;
 			children = (
+				AB62FCDA2B5624DB0075D66A /* Color */,
+				AB62FCDD2B5624DB0075D66A /* Common */,
+				AB62FCCC2B5624DB0075D66A /* FunctionExpansion */,
+				AB62FCE12B5624DB0075D66A /* ObjectExist */,
+				AB62FCD52B5624DB0075D66A /* QuickModel */,
+				AB62FCBD2B5624DB0075D66A /* UITools */,
 				ABB0E5462B5587060077C96D /* MKTool.h */,
+				AB62FD0E2B5626A80075D66A /* MKMacroDefinition.h */,
 				ABB0E5472B5587060077C96D /* MKTool.docc */,
 			);
 			path = MKTool;
@@ -106,7 +264,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB62FD072B5624DB0075D66A /* NSString+Exist.h in Headers */,
+				AB62FCF92B5624DB0075D66A /* XTTimeTool.h in Headers */,
+				AB62FD012B5624DB0075D66A /* NSDictionary+FromModel.h in Headers */,
+				AB62FCF42B5624DB0075D66A /* UIView+FunctionExpansion.h in Headers */,
 				ABB0E5542B5587060077C96D /* MKTool.h in Headers */,
+				AB62FCFB2B5624DB0075D66A /* MKMD5.h in Headers */,
+				AB62FCF62B5624DB0075D66A /* NSString+LocalizedString.h in Headers */,
+				AB62FCFE2B5624DB0075D66A /* NSObject+ModelTool.h in Headers */,
+				AB62FD052B5624DB0075D66A /* Common.h in Headers */,
+				AB62FCF52B5624DB0075D66A /* UIButton+FunctionExpansion.h in Headers */,
+				AB62FD022B5624DB0075D66A /* UIColor+MKRGB.h in Headers */,
+				AB62FCEF2B5624DB0075D66A /* UITextField+FunctionExpansion.h in Headers */,
+				AB62FCF32B5624DB0075D66A /* UIWindow+MKWindowTool.h in Headers */,
+				AB62FD082B5624DB0075D66A /* NSNull+Exist.h in Headers */,
+				AB62FCEA2B5624DB0075D66A /* UILabel+FunctionExpansion.h in Headers */,
+				AB62FD0C2B5624DB0075D66A /* NSNumber+Exist.h in Headers */,
+				AB62FCEC2B5624DB0075D66A /* UIViewController+NavigationBar.h in Headers */,
+				AB62FCE92B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
+				AB62FCF82B5624DB0075D66A /* NSString+Size.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +407,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB62FCFA2B5624DB0075D66A /* NSString+LocalizedString.m in Sources */,
+				AB62FD002B5624DB0075D66A /* NSObject+ModelTool.m in Sources */,
+				AB62FCF22B5624DB0075D66A /* UIViewController+NavigationBar.m in Sources */,
+				AB62FCEE2B5624DB0075D66A /* UIView+FunctionExpansion.m in Sources */,
+				AB62FCFC2B5624DB0075D66A /* XTTimeTool.m in Sources */,
+				AB62FD092B5624DB0075D66A /* NSNumber+Exist.m in Sources */,
+				AB62FCFD2B5624DB0075D66A /* NSString+Size.m in Sources */,
+				AB62FD0B2B5624DB0075D66A /* NSString+Exist.m in Sources */,
 				ABB0E5482B5587060077C96D /* MKTool.docc in Sources */,
+				AB62FCF72B5624DB0075D66A /* MKMD5.m in Sources */,
+				AB62FD032B5624DB0075D66A /* UIColor+MKRGB.m in Sources */,
+				AB62FCE82B5624DB0075D66A /* UITextField+FunctionExpansion.m in Sources */,
+				AB62FCEB2B5624DB0075D66A /* UIWindow+MKWindowTool.m in Sources */,
+				AB62FCF02B5624DB0075D66A /* UILabel+FunctionExpansion.m in Sources */,
+				AB62FD0A2B5624DB0075D66A /* NSNull+Exist.m in Sources */,
+				AB62FD042B5624DB0075D66A /* Common.m in Sources */,
+				AB62FCFF2B5624DB0075D66A /* NSDictionary+FromModel.m in Sources */,
+				AB62FCF12B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				AB62FCED2B5624DB0075D66A /* UIButton+FunctionExpansion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
