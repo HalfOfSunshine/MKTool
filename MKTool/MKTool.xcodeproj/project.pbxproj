@@ -21,6 +21,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		AB2EBDE22B56B8DD00FAA08D /* MKAES256Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2EBDE02B56B8DD00FAA08D /* MKAES256Crypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB2EBDE32B56B8DD00FAA08D /* MKAES256Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2EBDE12B56B8DD00FAA08D /* MKAES256Crypto.m */; };
+		AB2EBDE62B56B8EE00FAA08D /* MKRSACrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2EBDE42B56B8EE00FAA08D /* MKRSACrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB2EBDE72B56B8EE00FAA08D /* MKRSACrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2EBDE52B56B8EE00FAA08D /* MKRSACrypto.m */; };
 		AB62FCE82B5624DB0075D66A /* UITextField+FunctionExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCBE2B5624DB0075D66A /* UITextField+FunctionExpansion.m */; };
 		AB62FCE92B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCBF2B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB62FCEA2B5624DB0075D66A /* UILabel+FunctionExpansion.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCC02B5624DB0075D66A /* UILabel+FunctionExpansion.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,6 +61,8 @@
 		AB62FD0A2B5624DB0075D66A /* NSNull+Exist.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCE52B5624DB0075D66A /* NSNull+Exist.m */; };
 		AB62FD0B2B5624DB0075D66A /* NSString+Exist.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62FCE62B5624DB0075D66A /* NSString+Exist.m */; };
 		AB62FD0C2B5624DB0075D66A /* NSNumber+Exist.h in Headers */ = {isa = PBXBuildFile; fileRef = AB62FCE72B5624DB0075D66A /* NSNumber+Exist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA9032A2B56CBE600CD9938 /* MKCryptoProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA903292B56CBE600CD9938 /* MKCryptoProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA9032D2B56CC4600CD9938 /* MKCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA9032C2B56CC4000CD9938 /* MKCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABB0E5482B5587060077C96D /* MKTool.docc in Sources */ = {isa = PBXBuildFile; fileRef = ABB0E5472B5587060077C96D /* MKTool.docc */; };
 		ABB0E54E2B5587060077C96D /* MKTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB0E5432B5587060077C96D /* MKTool.framework */; };
 		ABB0E5532B5587060077C96D /* MKToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0E5522B5587060077C96D /* MKToolTests.m */; };
@@ -74,6 +80,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB2EBDE02B56B8DD00FAA08D /* MKAES256Crypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKAES256Crypto.h; sourceTree = "<group>"; };
+		AB2EBDE12B56B8DD00FAA08D /* MKAES256Crypto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKAES256Crypto.m; sourceTree = "<group>"; };
+		AB2EBDE42B56B8EE00FAA08D /* MKRSACrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKRSACrypto.h; sourceTree = "<group>"; };
+		AB2EBDE52B56B8EE00FAA08D /* MKRSACrypto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKRSACrypto.m; sourceTree = "<group>"; };
 		AB62FCBE2B5624DB0075D66A /* UITextField+FunctionExpansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FunctionExpansion.m"; sourceTree = "<group>"; };
 		AB62FCBF2B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		AB62FCC02B5624DB0075D66A /* UILabel+FunctionExpansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FunctionExpansion.h"; sourceTree = "<group>"; };
@@ -111,6 +121,9 @@
 		AB62FCE62B5624DB0075D66A /* NSString+Exist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Exist.m"; sourceTree = "<group>"; };
 		AB62FCE72B5624DB0075D66A /* NSNumber+Exist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Exist.h"; sourceTree = "<group>"; };
 		AB62FD0E2B5626A80075D66A /* MKMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMacroDefinition.h; sourceTree = "<group>"; };
+		ABA903292B56CBE600CD9938 /* MKCryptoProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCryptoProtocol.h; sourceTree = "<group>"; };
+		ABA9032C2B56CC4000CD9938 /* MKCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCrypto.h; sourceTree = "<group>"; };
+		ABA903302B56CD0B00CD9938 /* MKColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKColor.h; sourceTree = "<group>"; };
 		ABB0E5432B5587060077C96D /* MKTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB0E5462B5587060077C96D /* MKTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKTool.h; sourceTree = "<group>"; };
 		ABB0E5472B5587060077C96D /* MKTool.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MKTool.docc; sourceTree = "<group>"; };
@@ -137,38 +150,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB62FCBD2B5624DB0075D66A /* UITools */ = {
+		AB2EBDDD2B56B78D00FAA08D /* MKCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				AB62FCCB2B5624DB0075D66A /* UIButton+FunctionExpansion.h */,
-				AB62FCC32B5624DB0075D66A /* UIButton+FunctionExpansion.m */,
-				AB62FCC02B5624DB0075D66A /* UILabel+FunctionExpansion.h */,
-				AB62FCC62B5624DB0075D66A /* UILabel+FunctionExpansion.m */,
-				AB62FCBF2B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.h */,
-				AB62FCC72B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.m */,
-				AB62FCC52B5624DB0075D66A /* UITextField+FunctionExpansion.h */,
-				AB62FCBE2B5624DB0075D66A /* UITextField+FunctionExpansion.m */,
-				AB62FCCA2B5624DB0075D66A /* UIView+FunctionExpansion.h */,
-				AB62FCC42B5624DB0075D66A /* UIView+FunctionExpansion.m */,
-				AB62FCC22B5624DB0075D66A /* UIViewController+NavigationBar.h */,
-				AB62FCC82B5624DB0075D66A /* UIViewController+NavigationBar.m */,
-				AB62FCC92B5624DB0075D66A /* UIWindow+MKWindowTool.h */,
-				AB62FCC12B5624DB0075D66A /* UIWindow+MKWindowTool.m */,
+				ABA903272B56CBA300CD9938 /* MD5 */,
+				ABA903262B56CB9200CD9938 /* RSA */,
+				ABA903252B56CB8900CD9938 /* AES256 */,
+				ABA903292B56CBE600CD9938 /* MKCryptoProtocol.h */,
+				ABA9032C2B56CC4000CD9938 /* MKCrypto.h */,
 			);
-			path = UITools;
+			path = MKCrypto;
+			sourceTree = "<group>";
+		};
+		AB62FCBD2B5624DB0075D66A /* MKUITools */ = {
+			isa = PBXGroup;
+			children = (
+				ABA903312B56CD9D00CD9938 /* UITool */,
+			);
+			path = MKUITools;
 			sourceTree = "<group>";
 		};
 		AB62FCCC2B5624DB0075D66A /* FunctionExpansion */ = {
 			isa = PBXGroup;
 			children = (
 				AB62FCCD2B5624DB0075D66A /* NSString+LocalizedString.h */,
-				AB62FCCE2B5624DB0075D66A /* MKMD5.m */,
-				AB62FCCF2B5624DB0075D66A /* NSString+Size.h */,
-				AB62FCD02B5624DB0075D66A /* XTTimeTool.h */,
 				AB62FCD12B5624DB0075D66A /* NSString+LocalizedString.m */,
-				AB62FCD22B5624DB0075D66A /* MKMD5.h */,
-				AB62FCD32B5624DB0075D66A /* XTTimeTool.m */,
+				AB62FCCF2B5624DB0075D66A /* NSString+Size.h */,
 				AB62FCD42B5624DB0075D66A /* NSString+Size.m */,
+				AB62FCD02B5624DB0075D66A /* XTTimeTool.h */,
+				AB62FCD32B5624DB0075D66A /* XTTimeTool.m */,
 			);
 			path = FunctionExpansion;
 			sourceTree = "<group>";
@@ -184,13 +194,13 @@
 			path = QuickModel;
 			sourceTree = "<group>";
 		};
-		AB62FCDA2B5624DB0075D66A /* Color */ = {
+		AB62FCDA2B5624DB0075D66A /* MKColor */ = {
 			isa = PBXGroup;
 			children = (
-				AB62FCDB2B5624DB0075D66A /* UIColor+MKRGB.h */,
-				AB62FCDC2B5624DB0075D66A /* UIColor+MKRGB.m */,
+				ABA9032E2B56CCE300CD9938 /* Color */,
+				ABA903302B56CD0B00CD9938 /* MKColor.h */,
 			);
-			path = Color;
+			path = MKColor;
 			sourceTree = "<group>";
 		};
 		AB62FCDD2B5624DB0075D66A /* Common */ = {
@@ -215,6 +225,63 @@
 			path = ObjectExist;
 			sourceTree = "<group>";
 		};
+		ABA903252B56CB8900CD9938 /* AES256 */ = {
+			isa = PBXGroup;
+			children = (
+				AB2EBDE02B56B8DD00FAA08D /* MKAES256Crypto.h */,
+				AB2EBDE12B56B8DD00FAA08D /* MKAES256Crypto.m */,
+			);
+			path = AES256;
+			sourceTree = "<group>";
+		};
+		ABA903262B56CB9200CD9938 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				AB2EBDE42B56B8EE00FAA08D /* MKRSACrypto.h */,
+				AB2EBDE52B56B8EE00FAA08D /* MKRSACrypto.m */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		ABA903272B56CBA300CD9938 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				AB62FCD22B5624DB0075D66A /* MKMD5.h */,
+				AB62FCCE2B5624DB0075D66A /* MKMD5.m */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
+		ABA9032E2B56CCE300CD9938 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				AB62FCDB2B5624DB0075D66A /* UIColor+MKRGB.h */,
+				AB62FCDC2B5624DB0075D66A /* UIColor+MKRGB.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		ABA903312B56CD9D00CD9938 /* UITool */ = {
+			isa = PBXGroup;
+			children = (
+				AB62FCCB2B5624DB0075D66A /* UIButton+FunctionExpansion.h */,
+				AB62FCC32B5624DB0075D66A /* UIButton+FunctionExpansion.m */,
+				AB62FCC02B5624DB0075D66A /* UILabel+FunctionExpansion.h */,
+				AB62FCC62B5624DB0075D66A /* UILabel+FunctionExpansion.m */,
+				AB62FCBF2B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.h */,
+				AB62FCC72B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.m */,
+				AB62FCC52B5624DB0075D66A /* UITextField+FunctionExpansion.h */,
+				AB62FCBE2B5624DB0075D66A /* UITextField+FunctionExpansion.m */,
+				AB62FCCA2B5624DB0075D66A /* UIView+FunctionExpansion.h */,
+				AB62FCC42B5624DB0075D66A /* UIView+FunctionExpansion.m */,
+				AB62FCC22B5624DB0075D66A /* UIViewController+NavigationBar.h */,
+				AB62FCC82B5624DB0075D66A /* UIViewController+NavigationBar.m */,
+				AB62FCC92B5624DB0075D66A /* UIWindow+MKWindowTool.h */,
+				AB62FCC12B5624DB0075D66A /* UIWindow+MKWindowTool.m */,
+			);
+			path = UITool;
+			sourceTree = "<group>";
+		};
 		ABB0E5392B5587060077C96D = {
 			isa = PBXGroup;
 			children = (
@@ -236,12 +303,13 @@
 		ABB0E5452B5587060077C96D /* MKTool */ = {
 			isa = PBXGroup;
 			children = (
-				AB62FCDA2B5624DB0075D66A /* Color */,
+				AB2EBDDD2B56B78D00FAA08D /* MKCrypto */,
+				AB62FCDA2B5624DB0075D66A /* MKColor */,
 				AB62FCDD2B5624DB0075D66A /* Common */,
 				AB62FCCC2B5624DB0075D66A /* FunctionExpansion */,
 				AB62FCE12B5624DB0075D66A /* ObjectExist */,
 				AB62FCD52B5624DB0075D66A /* QuickModel */,
-				AB62FCBD2B5624DB0075D66A /* UITools */,
+				AB62FCBD2B5624DB0075D66A /* MKUITools */,
 				ABB0E5462B5587060077C96D /* MKTool.h */,
 				AB62FD0E2B5626A80075D66A /* MKMacroDefinition.h */,
 				ABB0E5472B5587060077C96D /* MKTool.docc */,
@@ -279,6 +347,10 @@
 				AB62FCF32B5624DB0075D66A /* UIWindow+MKWindowTool.h in Headers */,
 				AB62FD082B5624DB0075D66A /* NSNull+Exist.h in Headers */,
 				AB62FCEA2B5624DB0075D66A /* UILabel+FunctionExpansion.h in Headers */,
+				AB2EBDE62B56B8EE00FAA08D /* MKRSACrypto.h in Headers */,
+				ABA9032D2B56CC4600CD9938 /* MKCrypto.h in Headers */,
+				AB2EBDE22B56B8DD00FAA08D /* MKAES256Crypto.h in Headers */,
+				ABA9032A2B56CBE600CD9938 /* MKCryptoProtocol.h in Headers */,
 				AB62FD0C2B5624DB0075D66A /* NSNumber+Exist.h in Headers */,
 				AB62FCEC2B5624DB0075D66A /* UIViewController+NavigationBar.h in Headers */,
 				AB62FCE92B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
@@ -407,6 +479,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2EBDE72B56B8EE00FAA08D /* MKRSACrypto.m in Sources */,
 				AB62FCFA2B5624DB0075D66A /* NSString+LocalizedString.m in Sources */,
 				AB62FD002B5624DB0075D66A /* NSObject+ModelTool.m in Sources */,
 				AB62FCF22B5624DB0075D66A /* UIViewController+NavigationBar.m in Sources */,
@@ -425,6 +498,7 @@
 				AB62FD042B5624DB0075D66A /* Common.m in Sources */,
 				AB62FCFF2B5624DB0075D66A /* NSDictionary+FromModel.m in Sources */,
 				AB62FCF12B5624DB0075D66A /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				AB2EBDE32B56B8DD00FAA08D /* MKAES256Crypto.m in Sources */,
 				AB62FCED2B5624DB0075D66A /* UIButton+FunctionExpansion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

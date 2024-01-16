@@ -8,5 +8,6 @@
 #ifndef MKColor_h
 #define MKColor_h
 
+#import <MKTool/UIColor+MKRGB.h>
 
 #endif /* MKColor_h */
