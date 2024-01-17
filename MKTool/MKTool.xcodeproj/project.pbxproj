@@ -165,6 +165,8 @@
 		AB62FCBD2B5624DB0075D66A /* MKUITools */ = {
 			isa = PBXGroup;
 			children = (
+				ABA903302B56CD0B00CD9938 /* MKColor.h */,
+				ABA9032E2B56CCE300CD9938 /* Color */,
 				ABA903312B56CD9D00CD9938 /* UITool */,
 			);
 			path = MKUITools;
@@ -192,15 +194,6 @@
 				AB62FCD92B5624DB0075D66A /* NSDictionary+FromModel.h */,
 			);
 			path = QuickModel;
-			sourceTree = "<group>";
-		};
-		AB62FCDA2B5624DB0075D66A /* MKColor */ = {
-			isa = PBXGroup;
-			children = (
-				ABA9032E2B56CCE300CD9938 /* Color */,
-				ABA903302B56CD0B00CD9938 /* MKColor.h */,
-			);
-			path = MKColor;
 			sourceTree = "<group>";
 		};
 		AB62FCDD2B5624DB0075D66A /* Common */ = {
@@ -304,7 +297,6 @@
 			isa = PBXGroup;
 			children = (
 				AB2EBDDD2B56B78D00FAA08D /* MKCrypto */,
-				AB62FCDA2B5624DB0075D66A /* MKColor */,
 				AB62FCDD2B5624DB0075D66A /* Common */,
 				AB62FCCC2B5624DB0075D66A /* FunctionExpansion */,
 				AB62FCE12B5624DB0075D66A /* ObjectExist */,
